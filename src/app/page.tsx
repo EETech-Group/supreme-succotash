@@ -334,14 +334,14 @@ export default function Home() {
                       <div className="flex space-x-2">
                         <Button
                           size="sm"
-                          variant="outline"
+                          variant="edit"
                           onClick={() => handleEdit(part)}
                         >
                           <Edit className="w-4 h-4" />
                         </Button>
                         <Button
                           size="sm"
-                          variant="destructiveOutline"
+                          variant="delete"
                           onClick={() => handleDelete(part.id)}
                         >
                           <Trash2 className="w-4 h-4" />
